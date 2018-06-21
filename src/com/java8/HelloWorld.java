@@ -22,6 +22,7 @@ public class HelloWorld {
 			list.add(3);
 			itr.next();
 		}
+		
 		System.out.println(list);
 	}
 	
