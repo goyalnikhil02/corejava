@@ -16,7 +16,7 @@ public class PredicateExample {
       List<Integer> evenList=alist.stream().filter(element -> (element%2==0)).collect(Collectors.toList());
       evenList.forEach(System.out::println);
       
-      List<Integer> moreList=alist.stream().filter(element -> (element==0)).collect(Collectors.toList());
+      List<Integer> moreList=alist.stream().filter(element -> (element==2)).collect(Collectors.toList());
       System.out.println(moreList.isEmpty());
       moreList.forEach(System.out::println);
       
